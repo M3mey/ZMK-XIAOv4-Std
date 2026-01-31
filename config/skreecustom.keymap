@@ -38,23 +38,23 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &bootloader  &trans  &trans
-                        &trans  &trans  &trans    &trans       &trans  &trans
+&trans  &trans  &trans          &trans        &trans     &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &trans     &trans    &trans       &trans  &trans  &trans  &trans  &trans
+                                &trans        &trans     &trans    &bootloader  &trans  &trans
+                                &trans        &trans     &trans    &trans       &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans    &trans        &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &kp UP_ARROW  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans        &bootloader  &trans    &trans  &trans  &trans
-                          &trans        &trans       &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &bootloader  &trans    &trans  &trans  &trans
+                        &trans  &trans       &trans    &trans  &trans  &trans
             >;
         };
     };
